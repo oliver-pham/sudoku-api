@@ -1,4 +1,4 @@
-package com.oliver.sudoku;
+package com.oliver.sudoku.controller;
 
 import com.qqwing.QQWing;
 

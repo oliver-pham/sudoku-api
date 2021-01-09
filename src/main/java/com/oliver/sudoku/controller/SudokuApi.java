@@ -1,4 +1,4 @@
-package com.oliver.sudoku;
+package com.oliver.sudoku.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,15 +6,17 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
+@RequestMapping("/api")
 public class SudokuApi {
 
     private static final Logger logger = LoggerFactory.getLogger(SudokuApi.class);
 
-    @GetMapping("/api/generate")
+    @GetMapping("/generate")
     public ResponseEntity<String> generatePuzzle() {
         try {
             Puzzle puzzle = new Puzzle();
@@ -26,7 +28,7 @@ public class SudokuApi {
         }
     }
 
-    @PostMapping("/api/solve")
+    @PostMapping("/solve")
     public ResponseEntity<String> solvePuzzle(@RequestBody Puzzle puzzle) {
         try {
             String solution = puzzle.getPuzzleSolutionString();
