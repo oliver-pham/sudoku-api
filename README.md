@@ -4,8 +4,8 @@
     <a href='https://travis-ci.com/github/ptpham4/sudoku-api'>
         <img src='https://travis-ci.com/ptpham4/sudoku-api.svg?branch=main' alt='Build Status' />
     </a>
-    <a href='https://coveralls.io/github/ptpham4/sudoku-api'>
-        <img src='https://coveralls.io/repos/github/ptpham4/sudoku-api/badge.svg' alt='Coverage Status' />
+    <a href="https://codecov.io/gh/ptpham4/sudoku-api">
+        <img src="https://codecov.io/gh/ptpham4/sudoku-api/branch/main/graph/badge.svg?token=CBYPE4KPGU"/>
     </a>
 </div>
 
