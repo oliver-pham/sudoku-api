@@ -2,7 +2,12 @@
     <img src="https://uploads.guim.co.uk/2020/04/09/SU-4779_P_E.jpg">
     <h1>Sudoku Generator API</h1>
     [![Build Status](https://travis-ci.com/ptpham4/sudoku-api.svg?branch=main)](https://travis-ci.com/ptpham4/sudoku-api)
-    [![Coverage Status](https://coveralls.io/repos/github/ptpham4/sudoku-api/badge.svg?branch=main)](https://coveralls.io/github/ptpham4/sudoku-api?branch=main)
+    <a href='https://travis-ci.com/github/ptpham4/sudoku-api'>
+        <img src='https://travis-ci.com/ptpham4/sudoku-api.svg?branch=main' alt='Build Status' />
+    </a>
+    <a href='https://coveralls.io/github/ptpham4/sudoku-api'>
+        <img src='https://coveralls.io/repos/github/ptpham4/sudoku-api/badge.svg' alt='Coverage Status' />
+    </a>
 </div>
 
 ## About
